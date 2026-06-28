@@ -69,3 +69,41 @@ console.log( 2+ 2 + "3" + 4 + 4); */
 
 // console.log(`a:${a}, b:${b}`);
 // //Expected output: "a:4, b:4"
+
+//Comparison
+
+//here null is treated as 0
+// console.log(null > 0);
+// console.log(null >= 0);
+// console.log(null < 0);
+// console.log(null == 0);
+
+// console.log(undefined < 0);
+// console.log(undefined > 0);
+// console.log(undefined >= 0);
+// console.log(undefined == 0);
+
+//Summary of datatypes
+
+/*Return type of variables in JavaScript
+=======================
+ Primitive Datatypes
+---------------------------------------------------
+       Number =>     number
+       String  =>        string
+       Boolean  =>    boolean
+       null  =>             object
+       undefined  =>  undefined
+       Symbol  =>      symbol
+       BigInt  =>         bigint
+========================
+ Non-primitive Datatypes
+---------------------------------------------
+       Arrays  =>       object
+       Function  =>  function
+       Object  =>       object
+*/
+
+// let bigNum = 3444422223333444445n;
+// console.log(typeof bigNum);
+
