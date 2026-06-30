@@ -97,7 +97,7 @@ console.log( 2+ 2 + "3" + 4 + 4); */
        Symbol  =>      symbol
        BigInt  =>         bigint
 ========================
- Non-primitive Datatypes
+ Non-primitive Datatypes(Reference)
 ---------------------------------------------
        Arrays  =>       object
        Function  =>  function
@@ -107,3 +107,26 @@ console.log( 2+ 2 + "3" + 4 + 4); */
 // let bigNum = 3444422223333444445n;
 // console.log(typeof bigNum);
 
+
+//Memory :- Stack(Primitive), Heap(Non-Primitive)
+// In stack we get copy of the original data and in heap we get access of original reference.
+
+let ytAc = "sakshiyt.com";
+
+let ytAc2 = ytAc;
+
+ytAc2 = "sunnyyt.com";
+
+console.log(ytAc);
+console.log(ytAc2);
+
+let userOne = {
+       email: "sakshi@gmail.com"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "hitesh@gmail.com";
+
+console.log(userOne);
+console.log(userTwo);
